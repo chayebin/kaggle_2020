@@ -4,7 +4,8 @@
 # 0. 목차 
 > [1. 목적](#1-목적)  
 > [2. 프로젝트](#2-프로젝트)   
-> [3. 모델](#3-모델)  
+> [3. 모델](#3-모델)    
+> [4. 결론](#4-결론)
 
 ​
 ​
@@ -46,9 +47,32 @@
 ​
 ​
 ### 2.3. 개발 환경
-> 툴 : Anaconda – Jupyter Notebook   
-> 언어 : Python(Pandas, Numpy, Sklearn, Seaborn)
+> * 툴 : Anaconda – Jupyter Notebook   
+> * 언어 : Python(Pandas, Numpy, Sklearn, Seaborn)
 
 ​
 ​ 
 # 3. 모델
+### 예측값 시각화
+* LinearRegression   
+![image](https://user-images.githubusercontent.com/82797757/121130689-b9d81700-c869-11eb-90cd-3e41385cb7e6.png)
+* KNeighbor   
+![image](https://user-images.githubusercontent.com/82797757/121130698-bc3a7100-c869-11eb-9d51-704825c0335d.png)
+* GradientBoost   
+![image](https://user-images.githubusercontent.com/82797757/121130705-be043480-c869-11eb-95c2-ff23d1ae3c46.png)
+* Rasso   
+![image](https://user-images.githubusercontent.com/82797757/121130712-bfcdf800-c869-11eb-8306-ac514bf338bb.png)
+* Ada   
+![image](https://user-images.githubusercontent.com/82797757/121130716-c0ff2500-c869-11eb-84ff-c4a4f3524395.png)
+
+​
+​ 
+# 4. 결론 
+### 이상치가 가장 적은 GradientBoost로 선택   
+~~~
+훈련 근사도   : 0.9947476369136521   
+테스트 근사도 : 0.9670562785160219   
+~~~
+### 캐글 경진 대회에서 우수상 수상
+![image](https://user-images.githubusercontent.com/82797757/121131666-138d1100-c86b-11eb-94c1-a0c07b7d1008.png)
+
